@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["es7", "esnext", "es2015"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "alwaysStrict": true,
+        "outDir": "lib"
+    }
+}

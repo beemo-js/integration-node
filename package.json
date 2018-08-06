@@ -1,0 +1,31 @@
+{
+  "name": "beemo-node",
+  "version": "0.0.1",
+  "description": "Node integration for Beemo.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest lib/",
+    "build": "tsc && tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beemo-js/integration-node.git"
+  },
+  "keywords": [
+    "beemo",
+    "node"
+  ],
+  "author": "Antarès Tupin <antares.tupin@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/beemo-js/integration-node/issues"
+  },
+  "homepage": "https://github.com/beemo-js/integration-node#readme",
+  "dependencies": {
+    "beemo-lib": "<1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.6"
+  }
+}
